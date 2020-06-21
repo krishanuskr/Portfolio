@@ -33,8 +33,7 @@ Building a portfolio using WordPress, hosted on AWS.
     	  ns2.domain.com
 
 21. Website is live, or should be live in 24 hours. Works with VPN almost immediately, might take time for Indian ISPs, while you get a     403.
-22. Go to EC2. Right click on the instance. Go to Instance Settings -> System Logs -> go to almost the bottom to get username and           password. 
-	  Deafault username is 'user'.
+22. Go to EC2. Right click on the instance. Go to Instance Settings -> System Logs -> go to almost the bottom to get username and           password. Deafault username is 'user'.
 23. Go to <yourdomain>.com/wp-login and enter the credentials
 24. Download PuTTY for free ssl certificate. From puttygen, load your key value pair (pem file), and generate the ppk file.
 25. Go to putty. Go to Session. Enter IP of your website: 18.224.39.155. Create a session name, probably with the kind of website it is.     I named it krishanuskr portfolio.  
@@ -53,7 +52,7 @@ Building a portfolio using WordPress, hosted on AWS.
 
 36. Click on bitnami wordpress in the left column
 37. Download, set up WinSCP tool.
-38. Don't import. Choose SFTP, enter ip address, user as bitnami and password as 5vsDl7HXBRJP. Save it for the future, and login to view     ftp.
+38. Don't import. Choose SFTP, enter ip address, user as 'bitnami' and password as the one in bitnami system logs. Save it for the future, and login to view     ftp.
 39. To remove the bitnami tag from the web page:
     sudo /opt/bitnami/apps/wordpress/bnconfig.disabled --disable_banner1
 40. That should be it. Go on to <yourdomain>.com/wp-login to design your website.
