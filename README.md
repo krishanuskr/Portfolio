@@ -56,3 +56,4 @@ Building a portfolio using WordPress, hosted on AWS.
 38. Don't import. Choose SFTP, enter ip address, user as bitnami and password as 5vsDl7HXBRJP. Save it for the future, and login to view     ftp.
 39. To remove the bitnami tag from the web page:
     sudo /opt/bitnami/apps/wordpress/bnconfig.disabled --disable_banner1
+40. That should be it. Go on to <yourdomain>.com/wp-login to design your website.
